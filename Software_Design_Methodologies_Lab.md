@@ -37,3 +37,7 @@ Allowing methods and parameters to be used acrossed several other methods.
 
 
 Strategy pattern allows there to be dynamic change to take place on the behaviour of an object, allowing the pattern to enable selection of algorithms at runtime, effectively having multiple different plans and choosing the best strategy for the context. In Object orientated programming, multiple classes have different strategies in which the abstract parent class (or interface) use these stratefies. As for functional programming, the pattern can be used at the highest parent function, and passed through arguements through the chains of functions. 
+
+# 6. Imagine your is creating a new online payment system. In order to gain maximum market share it can't be tied to a particular sector - it needs to work just as well when ordering a takeaway as when buying a new coat. Which design methodology would you suggest following? Give some justification for your decision.
+
+I would select Object Orientated Design, as my suggestion for this context. This is particularly due to it's flexibility in design and reusability of code, where polymorphism and encapsulation are the key pillars dictating these characteristics. Encapsulation allows the code to be managed and maintain complexity whilst polymorphism allows aspects of code to be shared in a loosely coupled manner. 
