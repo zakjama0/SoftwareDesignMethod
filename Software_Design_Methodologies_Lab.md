@@ -16,6 +16,7 @@ These models describe how a system is designed, two approaches having a range of
 FOD is when a design is decomposed into a range of interacting units each having a clearly set and defined function. The geneic procedure for the design is that it starts with a high level description of the function of what the system does which is then refined into greatly detailed parts, leading to a top-down structure.
 
 ## 3. In which design methodology would a class diagram be most useful?
+Object Orientated design is the most useful, as classes can be graphically drawn through UML (Unified Modelling Language), whilst showing its attributes, methods and relationships between other classes.
 
 ## 4. What are the four pillars of object oriented programming? Give a single-sentence description of each.
 
@@ -32,4 +33,7 @@ Allowing one objects to acquire attributes (properties and methods) of another o
 Allowing methods and parameters to be used acrossed several other methods.
 
 
+# 5. What is the strategy pattern? How would its implementation differ between a functional and object oriented system?
 
+
+Strategy pattern allows there to be dynamic change to take place on the behaviour of an object, allowing the pattern to enable selection of algorithms at runtime, effectively having multiple different plans and choosing the best strategy for the context. In Object orientated programming, multiple classes have different strategies in which the abstract parent class (or interface) use these stratefies. As for functional programming, the pattern can be used at the highest parent function, and passed through arguements through the chains of functions. 
